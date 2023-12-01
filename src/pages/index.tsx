@@ -41,6 +41,9 @@ export default function Home() {
                 to deploy it.
               </div>
             </Link>
+            <h1>
+               Read <Link href="/posts/first-post">this page!</Link>
+ m          </h1>
           </div>
           <p className="text-2xl text-white">
             {hello.data ? hello.data.greeting : "Loading tRPC query..."}
