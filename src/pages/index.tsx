@@ -42,7 +42,7 @@ export default function Home() {
               </div>
             </Link>
             <h1>
-               Read <Link href="/posts/first-post">this page!</Link>
+               Read <Link href="/thebestpage.js">this page!</Link>
  m          </h1>
           </div>
           <p className="text-2xl text-white">
