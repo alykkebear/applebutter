@@ -42,6 +42,7 @@ export default function Home() {
               </div>
             </Link>
             <h1>
+              //this is a change, ignore this also why cant this be love
                Read <Link href="/thebestpage">this page!</Link>
  m          </h1>
           </div>
