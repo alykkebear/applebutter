@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#C3E0E5] to-[#274472]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-          <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
+          <h1 className="text-5xl font-mono tracking-tight text-white sm:text-[5rem]">
             Archive <span className="text-[hsl(280,100%,70%)]">3</span> Back in Black
           </h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
@@ -24,7 +24,7 @@ export default function Home() {
               href="/fileupload"
               target="_blank"
             >
-              <h3 className="text-2xl font-bold">File Upload →</h3>
+              <h3 className="text-2xl font-sans">File Upload →</h3>
               <div className="text-lg">
                 a nice starter pack- and certainly cooler than that other page :
               </div>
@@ -34,7 +34,7 @@ export default function Home() {
               href="/databasesearch"
               target="_blank"
             >
-              <h3 className="text-2xl font-bold">Database →</h3>
+              <h3 className="text-2xl font-sans">Database →</h3>
               <div className="text-lg">
                 Welcome to Kaui's page ^-^
               </div>
