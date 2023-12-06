@@ -31,22 +31,14 @@ export default function Home() {
             </Link>
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-              href="https://create.t3.gg/en/introduction"
+              href="/coolpage"
               target="_blank"
             >
-              <h3 className="text-2xl font-bold">Documentation →</h3>
+              <h3 className="text-2xl font-bold">Cool Page →</h3>
               <div className="text-lg">
-                Learn more about Create T3 App, the libraries it uses, and how
-                to deploy it.
+                Welcome to Kaui's page ^-^
               </div>
             </Link>
-            <h1>
-              //this is a change, ignore this also why cant this be love
-               Read <Link href="/thebestpage">this page!</Link>
- m          </h1>
-            <h1>
-              Read <Link href="/coolpage">no this page!</Link>
-            </h1>
           </div>
           <p className="text-2xl text-white">
             {hello.data ? hello.data.greeting : "Loading tRPC query..."}
