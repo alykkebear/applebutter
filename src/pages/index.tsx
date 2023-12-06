@@ -44,6 +44,9 @@ export default function Home() {
               //this is a change, ignore this also why cant this be love
                Read <Link href="/thebestpage">this page!</Link>
  m          </h1>
+            <h1>
+              Read <Link href="/coolpage">no this page!</Link>
+            </h1>
           </div>
           <p className="text-2xl text-white">
             {hello.data ? hello.data.greeting : "Loading tRPC query..."}
