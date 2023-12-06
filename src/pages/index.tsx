@@ -24,7 +24,7 @@ export default function Home() {
               href="/fileupload"
               target="_blank"
             >
-              <h3 className="text-2xl font-sans">File Upload →</h3>
+              <h3 className="text-2xl font-mono">File Upload →</h3>
               <div className="text-lg">
                 a nice starter pack- and certainly cooler than that other page :
               </div>
@@ -34,7 +34,7 @@ export default function Home() {
               href="/databasesearch"
               target="_blank"
             >
-              <h3 className="text-2xl font-sans">Database →</h3>
+              <h3 className="text-2xl font-mono">Database →</h3>
               <div className="text-lg">
                 Welcome to Kaui's page ^-^
               </div>
