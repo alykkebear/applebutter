@@ -17,8 +17,8 @@ export default function Home() {
            </div>
            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
             <li><a>Play</a></li>
-            <li><a>File Upload</a></li>
-            <li><a>Database</a></li>
+            <li><a><Link href = "./fileupload" target = "_blank">File Upload</Link></a></li>
+            <li><a><Link href = "./databasearch" target = "_blank">Database</Link></a></li>
            </ul>
           </div>
          </div>
