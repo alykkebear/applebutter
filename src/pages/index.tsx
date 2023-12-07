@@ -19,14 +19,14 @@ export default function Home() {
           <meta name="Game Title" content="super cringy thing that i couldn't come up with" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="flex min-h-screen flex-col items-center justify-center bg-[#5885AF]">
+        <main className="flex min-h-screen flex-col items-center justify-center">
           <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
             <h1 className="text-5xl font-mono tracking-tight text-white sm:text-[5rem]">
-              Archive <span className="text-[#274472]">3</span> Back in Black
+              Archive 3 Back in Black
             </h1>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
               <Link
-                className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-[#274472] hover:bg-white/20"
+                className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4  hover:bg-white/20"
                 href="/fileupload"
                 target="_blank"
               >
@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link
-                className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-[#274472] hover:bg-white/20"
+                className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4  hover:bg-white/20"
                 href="/databasesearch"
                 target="_blank"
             >
