@@ -23,8 +23,8 @@ export default function fileuploadpage() {
           <div className="navbar-end">
           </div>
         </div>
-        <h1 className = "font-mono justify-center">Upload thine files to the database if thou hast any</h1>
-        <input type="file" className="file-input justify-center file-input-bordered file-input-accent w-full max-w-xs" />
+        <h1 className = "font-mono text-justify-center">Upload thine files to the database if thou hast any</h1>
+        <input type="file" className="file-input file-justify-center file-input-bordered file-input-accent w-full max-w-xs" />
       </main>
     </>
      
