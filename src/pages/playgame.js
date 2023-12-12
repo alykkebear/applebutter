@@ -23,6 +23,7 @@ export default function playgamepage() {
           <div className="navbar-end">
           </div>
         </div>
+        <div className="skeleton w-320 h-320"></div>
      </main>
     </>
   );
