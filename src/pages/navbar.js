@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
      
     
-        <div className="navbar bg-neutral text-neutral-content">
+        <div className="navbar bg-black text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
            <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
