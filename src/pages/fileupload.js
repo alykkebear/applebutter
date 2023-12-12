@@ -3,8 +3,7 @@ import Link from 'next/link';
 export default function fileuploadpage() {
   return (
     <>
-    //navbar
-      <main>
+      <main data-theme="retro">
         <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
@@ -19,11 +18,13 @@ export default function fileuploadpage() {
           </div>
          </div>
          <div className="navbar-center">
-          <a className="btn text-xl font-mono">Archive 3</a>
+          <a className="font-mono">Archive 3</a>
          </div>
           <div className="navbar-end">
           </div>
         </div>
+        <h1 className = "font-mono justify-center">Upload thine files to the database if thou hast any</h1>
+        <input type="file" className="file-input justify-center file-input-bordered file-input-accent w-full max-w-xs" />
       </main>
     </>
      
