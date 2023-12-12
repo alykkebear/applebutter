@@ -4,7 +4,6 @@ export default function Navbar() {
     return (
      
      <>
-        <main>
         <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
@@ -24,7 +23,7 @@ export default function Navbar() {
           <div className="navbar-end">
           </div>
         </div>
-        </main>
+    
     </>
     )
 }
