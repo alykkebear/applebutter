@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Navbar() {
     return (
      
-     <>
+    
         <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
@@ -24,6 +24,6 @@ export default function Navbar() {
           </div>
         </div>
     
-    </>
+    
     )
 }
