@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function databasesearchpage() {
     return (
       <>
-        //navbar
         <main>
         <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
@@ -19,10 +18,17 @@ export default function databasesearchpage() {
           </div>
          </div>
          <div className="navbar-center">
-          <a className="btn text-xl font-mono">Archive 3</a>
+          <a className="font-mono">Archive 3</a>
          </div>
           <div className="navbar-end">
           </div>
+        </div>
+        <div className="mockup-browser border bg-base-300">
+          <div className="mockup-browser-toolbar">
+            <div className="input">https://daisyui.com</div>
+          </div>
+          <div className="flex justify-center px-4 py-16 bg-base-200">Archivii 2: Welcome to the Database</div>
+          <input type="text" placeholder="search thine database" className="input input-bordered input-accent w-full max-w-xs" />
         </div>
         </main>
       </>

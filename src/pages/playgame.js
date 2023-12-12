@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function playgamepage() {
   return (
     <>
-      //navbar
       <main>
         <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
@@ -19,7 +18,7 @@ export default function playgamepage() {
           </div>
          </div>
          <div className="navbar-center">
-          <a className="btn text-xl font-mono">Archive 3</a>
+          <a className="font-mono">Archive 3</a>
          </div>
           <div className="navbar-end">
           </div>

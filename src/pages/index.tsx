@@ -23,7 +23,7 @@ export default function Home() {
           </div>
          </div>
          <div className="navbar-center">
-          <a className="btn text-xl font-mono">Archive 3</a>
+          <a className="font-mono">Archive 3</a>
          </div>
           <div className="navbar-end">
           </div>
