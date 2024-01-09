@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
+import Navbar from "./navbar";
 export default function playgamepage() {
   return (
     <>
       <main>
+        <Navbar />
       <div className="navbar bg-neutral text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
