@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import react from 'react';
+import React from 'react';
 
 function siteNavbar() {
     return (
