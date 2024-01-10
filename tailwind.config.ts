@@ -13,5 +13,5 @@ export default {
     },
   },
   plugins: [require('daisyui')],
-  themes: ["retro"],
+  themes: ["retro", "coffee", "sunset"],
 } satisfies Config;
