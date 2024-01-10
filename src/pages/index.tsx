@@ -8,17 +8,13 @@ export default function Home() {
 
   return (
     <>
-       <Head data-theme="retro">
+       <Head data-theme="retro" >
+        <div className = "bg-primary">
         <Navbar />
         <p className = "justify-center font-mono">welcome to the home page lol</p>
+        </div>
        </Head>
-       <main data-theme="retro" className="flex min-h-screen flex-col items-center justify-center">
-         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-           <h1 className="text-5xl font-mono tracking-tight text-white sm:text-[5rem]">
-            Archive 3 Back in Black
-           </h1>
-          </div>
-       </main>
+       
     </>
   );
 }
