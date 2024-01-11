@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-       <main data-theme="retro" class-name = "bg-primary" >
+       <main data-theme="retro" class-name = "bg-secondary" >
         <Navbar />
         
         <p className = "justify-center font-mono">Explore the ruins of archiveterra while making your stamp on history</p>
