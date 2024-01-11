@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 export default function playgamepage() {
   return (
     <>
-      <main>
+      <main data-theme = "retro">
         <Navbar />
         <div className="skeleton w-320 h-320"></div>
      </main>
