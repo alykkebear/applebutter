@@ -8,14 +8,15 @@ export default function Home() {
 
   return (
     <>
-       <main data-theme="retro" class-name = "bg-secondary" >
+       <main data-theme="retro" class-name = "bg-primary" >
         <Navbar />
-        
         <p className = "justify-center font-mono">Explore the ruins of archiveterra while making your stamp on history</p>
-         <div className="flex flex-col w-full lg:flex-row bg-accent">
-          <div className="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-primary">upload photos to be archived</div> 
-          <div className="divider lg:divider-horizontal">OR</div> 
-          <div className="grid flex-grow h-32 card bg-base-300 rounded-box place-items-center bg-secondary">archive photos by playing the game</div>
+         <span /> <span /> <span /> <span /> <span /> <span />
+         <div className="flex flex-col gap-4 w-52">
+           <div className="skeleton h-32 w-full"></div>
+           <div className="skeleton h-4 w-28"></div>
+           <div className="skeleton h-4 w-full"></div>
+           <div className="skeleton h-4 w-full"></div>
          </div>
        </main>
        
