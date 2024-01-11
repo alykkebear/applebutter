@@ -4,7 +4,7 @@ import Navbar from './navbar'
 export default function databasesearchpage() {
     return (
       <>
-        <main data-theme="retro">
+        <main data-theme="retro" className='bg-secondary' >
         <Navbar />
         <div className="mockup-browser border bg-base-300">
           <div className="mockup-browser-toolbar">
