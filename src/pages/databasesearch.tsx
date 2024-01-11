@@ -10,11 +10,11 @@ export default function databasesearchpage() {
           <div className="mockup-browser-toolbar">
             <div className="input">https://daisyui.com</div>
           </div>
-          <div className="flex justify-center px-4 py-16 font-mono bg-base-200">Archivii 2: Welcome to the Database</div>
-          <div className="join">
           <input className="input input-bordered join-item" placeholder="Database"/>
           <button className="btn join-item rounded-r-full">Search</button>
         </div>
+          <div className="flex justify-center px-4 py-16 font-mono bg-base-200">Archivii 2: Welcome to the Database</div>
+          <div className="join">
         </div>
         </main>
       </>
