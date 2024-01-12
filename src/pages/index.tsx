@@ -13,7 +13,7 @@ export default function Home() {
         <p> </p>
         <p className = "justify-self-center font-mono">Explore the ruins of archiveterra while making your stamp on history</p>
         <p> </p> <p> </p> <p> </p>
-         <div className="flex flex-col gap-4 w-4/5 git justify-center items-center">
+         <div className="flex flex-col gap-4 w-4/5 justify-center items-center">
           <div className="skeleton h-96 w-full"></div>
           <div className="skeleton h-4 w-3/4"></div>
           <div className="skeleton h-4 w-full"></div>
