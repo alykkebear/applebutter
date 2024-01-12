@@ -14,7 +14,7 @@ export default function Navbar() {
             <li><a><Link href = "./playgame" target = "_self">Play</Link></a></li>
             <li><a><Link href = "./fileupload" target = "_self">File Upload</Link></a></li>
             <li><a><Link href = "./databasesearch" target = "_self">Database</Link></a></li>
-            <li><a><Link href = "./index" target = "_self">Home</Link></a></li>
+            <li><a><Link href = "./" target = "_self">Home</Link></a></li>
            </ul>
           </div>
          </div>
