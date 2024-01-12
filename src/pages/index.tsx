@@ -12,9 +12,9 @@ export default function Home() {
         <Navbar />
         <p className = "object-center font-mono">Explore the ruins of archiveterra while making your stamp on history</p>
          <span /> <span /> <span /> <span /> <span /> <span />
-         <div className="flex flex-col gap-4 w-36git  object-center">
+         <div className="flex flex-col gap-4 w-auto git  object-center">
           <div className="skeleton h-96 w-full"></div>
-          <div className="skeleton h-4 w-100"></div>
+          <div className="skeleton h-4 w-4/5"></div>
           <div className="skeleton h-4 w-full"></div>
           <div className="skeleton h-4 w-full"></div>
          </div>
