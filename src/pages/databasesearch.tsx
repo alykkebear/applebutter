@@ -6,7 +6,7 @@ export default function databasesearchpage() {
       <>
         <main data-theme="retro" className='bg-secondary' >
         <Navbar />
-        <div className="mockup-browser border bg-base-300">
+        <div className="mockup-browser border size-4/5 object-center h-full bg-base-300">
           <div className="mockup-browser-toolbar">
             <div className="input">https://daisyui.com</div>
           </div>
