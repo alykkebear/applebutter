@@ -10,10 +10,8 @@ export default function Home() {
     <>
        <main data-theme="retro" class-name = "bg-primary" >
         <Navbar />
-        <p> </p>
-        <p className = "justify-self-center font-mono">Explore the ruins of archiveterra while making your stamp on history</p>
-        <p> </p> <p> </p> <p> </p>
-        <div className="hero min-h-screen" style={{backgroundImage: 'map.jpg'}}>
+        
+        <div className="hero min-h-screen" style={{backgroundImage: 'url(./map.jpeg)'}}>
           <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
