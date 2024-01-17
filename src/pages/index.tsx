@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-       <main data-theme="luxury" class-name = "bg-primary font-mono" >
+       <main data-theme="coffee" class-name = "bg-primary font-mono" >
         <Navbar />
         
         <div className="hero min-h-screen" style={{backgroundImage: `url(/map.jpeg)`}}>
