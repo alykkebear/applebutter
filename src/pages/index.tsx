@@ -12,7 +12,7 @@ export default function Home() {
        <main data-theme="retro" class-name = "bg-primary" >
         <Navbar />
         
-        <div className="hero min-h-screen" style={{backgroundImage: `url(${background})`}}>
+        <div className="hero min-h-screen" style={{backgroundImage: `url(/map.jpeg)`}}>
           <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
