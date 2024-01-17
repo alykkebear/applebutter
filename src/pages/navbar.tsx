@@ -22,7 +22,6 @@ export default function Navbar() {
           <a className="font-mono">Archive 3</a>
          </div>
           <div className="navbar-end font-mono">
-          <input type="checkbox" value="luxury" className="toggle theme-controller"/>
           </div>
         </div>
      </main>
