@@ -11,7 +11,7 @@ export default function databasesearchpage() {
             <div className="input">https://daisyui.com</div>
           </div>
         </div>
-          <div className="flex justify-center px-4 py-16 font-mono bg-base-200">Archivii 2: Welcome to the Database</div>
+          <div className="flex justify-center px-4 py-16 font-mono bg-base-200">Archive 2: Welcome to the Database</div>
           <div className="join">
         </div>
         </main>

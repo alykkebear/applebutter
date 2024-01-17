@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import background from './map.jpeg'
 import { api } from "~/utils/api";
 import React from 'react';
 import Navbar from './navbar'
@@ -9,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-       <main data-theme="retro" class-name = "bg-primary" >
+       <main data-theme="coffee" class-name = "bg-primary font-mono" >
         <Navbar />
         
         <div className="hero min-h-screen" style={{backgroundImage: `url(/map.jpeg)`}}>

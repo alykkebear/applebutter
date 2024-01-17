@@ -3,7 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <>
-      <main data-theme = "retro">
+      <main>
       <div className="navbar bg-secondary text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
