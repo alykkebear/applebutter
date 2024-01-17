@@ -3,7 +3,7 @@ import React from 'react';
 export default function Navbar() {
   return (
     <>
-      <main>
+      <main data-theme = "retro">
       <div className="navbar bg-secondary text-neutral-content">
          <div className="navbar-start">
           <div className="dropdown">
@@ -16,6 +16,7 @@ export default function Navbar() {
             <li><a><Link href = "./databasesearch" target = "_self">Database</Link></a></li>
             <li><a><Link href = "./" target = "_self">Home</Link></a></li>
             <li><a><Link href = "./spell" target= "_self">Spells</Link></a></li>
+            <li><a><Link href = "./leaderboard" target= "_self">Leaderboard</Link></a></li>
            </ul>
           </div>
          </div>
