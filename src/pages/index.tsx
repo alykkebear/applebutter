@@ -17,7 +17,8 @@ export default function Home() {
               <div className="max-w-md">
                 <h1 className="mb-5 text-5xl font-bold">Welcome to ArchiveTerra</h1>
                 <p className="mb-5">Archiveterra is a state-of-the art system meant to make archiving fun!!! IK it lookes like crap now but come back in a few months and it'll probably work. Believe in teh belief that it can worrrrkkkkkk idk this is just filler text tbh. i really wanna buy a resin printer ~</p>
-                <button className="btn btn-primary">Play</button>
+                <button className="btn btn-primary"><Link href = "./playgame" target = "_self">Play</Link></button>
+               
               </div>
             </div>
           </div>
