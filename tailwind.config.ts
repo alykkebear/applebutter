@@ -14,6 +14,6 @@ export default {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ['light', 'dark', 'retro', 'synthwave', 'cyberpunk', 'valentine', 'aqua', 'luxury', 'coffee', 'nord'],
+    themes: ['light', 'dark', 'retro', 'synthwave', 'cyberpunk', 'valentine', 'aqua', 'luxury', 'coffee', 'nord', 'business'],
   },
 } satisfies Config;
