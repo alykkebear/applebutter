@@ -14,6 +14,16 @@ export default function fileuploadpage() {
           <div className="skeleton h-4 w-full"></div>
           <div className="skeleton h-4 w-4/5"></div>
         </div>
+        <div className="hero min-h-screen" style={{backgroundImage: 'url(/snowymountain.jpg)'}}>
+          <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero-content text-center text-neutral-content">
+             <div className="max-w-md">
+               <h1 className="mb-5 text-5xl font-bold">File Upload</h1>
+               <p className="mb-5">upload your archivable files here so that the world can become a better place. isn't this background pretty? now OFFER YOUR FILES IN RITUAL SACRIFICE TO OUR DIGITAL OVERLOARDS .... ~please</p>
+               <button className="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
       </main>
     </>
      
