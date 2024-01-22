@@ -14,8 +14,8 @@ export default function leaderboard() {
                         <tr>
                         <th></th>
                         <th>Name</th>
-                        <th>Job</th>
-                        <th>Favorite Color</th>
+                        <th>Level</th>
+                        <th>Score</th>
                         </tr>
                     </thead>
                 <tbody>
@@ -23,7 +23,7 @@ export default function leaderboard() {
                     <tr>
                     <th>1</th>
                     <td>Cy Ganderton</td>
-                    <td>Quality Control Specialist</td>
+                    <td>300</td>
                     <td>Blue</td>
                     </tr>
                {/* row 2 */}
@@ -32,14 +32,36 @@ export default function leaderboard() {
                     <td>Hart Hagerty</td>
                     <td>Desktop Support Technician</td>
                     <td>Purple</td>
-                </tr>
+                     </tr>
                 {/* row 3 */}
-                <tr>
-                <th>3</th>
-                <td>Brice Swyre</td>
-                <td>Tax Accountant</td>
-                <td>Red</td>
-        </tr>
+                     <tr>
+                     <th>3</th>
+                     <td>Brice Swyre</td>
+                     <td>Tax Accountant</td>
+                     <td>Red</td>
+                    </tr>
+                {/* row 4 */}
+                    <tr>
+                    <th>3</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                    </tr>
+                {/* row 5 */}
+                     <tr>
+                    <th>3</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                    </tr>
+                {/* row 6 */}
+                     <tr>
+                    <th>3</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                    </tr>
+                
     </tbody>
   </table>
 </div>
