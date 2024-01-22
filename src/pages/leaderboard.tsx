@@ -61,6 +61,13 @@ export default function leaderboard() {
                     <td>Tax Accountant</td>
                     <td>Red</td>
                     </tr>
+                {/* row 7 */}
+                <tr>
+                    <th>3</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                    </tr>
                 
     </tbody>
   </table>
