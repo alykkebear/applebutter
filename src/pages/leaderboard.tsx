@@ -42,28 +42,28 @@ export default function leaderboard() {
                     </tr>
                 {/* row 4 */}
                     <tr>
-                    <th>3</th>
+                    <th>4</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
                     </tr>
                 {/* row 5 */}
                      <tr>
-                    <th>3</th>
+                    <th>5</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
                     </tr>
                 {/* row 6*/}
                      <tr>
-                    <th>3</th>
+                    <th>6</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
                     </tr>
                 {/* row 7 */}
                 <tr>
-                    <th>3</th>
+                    <th>7</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
