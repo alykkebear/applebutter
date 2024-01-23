@@ -71,6 +71,16 @@ export default function leaderboard() {
                     </tr>
                 
     </tbody>
+    <tfoot>
+    <th></th> 
+        <td>Name</td> 
+        <td>Job</td> 
+        <td>company</td> 
+        <td>location</td> 
+        <td>Last Login</td> 
+        <td>Favorite Color</td>
+        <th></th> 
+    </tfoot>
   </table>
 </div>
 </main>
