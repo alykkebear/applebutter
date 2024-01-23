@@ -23,22 +23,22 @@ export default function leaderboard() {
                     <tr>
                     <th>1</th>
                     <td>Cy Ganderton</td>
-                    <td>300</td>
-                    <td>Blue</td>
+                    <td>120</td>
+                    <td>2000</td>
                     </tr>
                {/* row 2 */}
                     <tr>
                     <th>2</th>
                     <td>Hart Hagerty</td>
-                    <td>Desktop Support Technician</td>
-                    <td>Purple</td>
+                    <td>100</td>
+                    <td>1305</td>
                      </tr>
                 {/* row 3 */}
                      <tr>
                      <th>3</th>
                      <td>Brice Swyre</td>
-                     <td>Tax Accountant</td>
-                     <td>Red</td>
+                     <td>95</td>
+                     <td>1002</td>
                     </tr>
                 {/* row 4 */}
                     <tr>
