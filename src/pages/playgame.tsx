@@ -4,9 +4,9 @@ import Navbar from "./navbar";
 export default function playgamepage() {
   return (
     <>
-      <main data-theme = "retro">
+      <main data-theme = "pastel">
         <Navbar />
-        <div className="skeleton w-320 h-320"></div>
+        <img src = '/rickyou.gif' className = 'h-screen w-screen flex items-center justify-center' />
      </main>
     </>
   );
