@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 export default function leaderboard() {
     return(
         <>
-            <main data-theme="retro" className='bg-base-200'>
+            <main data-theme="coffee" className='bg-base-200'>
                 <Navbar />
                 <div className="overflow-x-auto">
                 <table className="table">
@@ -54,7 +54,7 @@ export default function leaderboard() {
                     <td>Tax Accountant</td>
                     <td>Red</td>
                     </tr>
-                {/* row 6 */}
+                {/* row 6*/}
                      <tr>
                     <th>3</th>
                     <td>Brice Swyre</td>
