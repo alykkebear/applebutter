@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 export default function loginpage() {
   return (
     <>
-      <main data-theme = "retro">
+      <main data-theme = "business">
         <Navbar />
         <div className="hero min-h-screen bg-base-200 font-mono " style={{backgroundImage: 'url(./cityslick.jpg)'}}>
             <div className="hero-content flex-col lg:flex-row-reverse">
