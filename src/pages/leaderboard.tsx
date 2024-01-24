@@ -9,79 +9,69 @@ export default function leaderboard() {
                 <Navbar />
                 <div className="overflow-x-auto">
                     <table className="table table-xs table-pin-rows table-pin-cols">
-
-                {/* head */}
                      <thead>
                         <tr>
                         <th></th>
                         <th>Name</th>
                         <th>Level</th>
                         <th>Score</th>
-                        </tr>
-                    </thead>
+                        <th></th>
+                    </tr>
+                </thead>
                 <tbody>
-                {/* row 1 */}
                     <tr>
                     <th>1</th>
                     <td>Cy Ganderton</td>
                     <td>120</td>
                     <td>2000</td>
-                    </tr>
-               {/* row 2 */}
-                    <tr>
+                  </tr>
+                <tr>
                     <th>2</th>
                     <td>Hart Hagerty</td>
                     <td></td>
                     <td>512</td>
-                     </tr>
-                {/* row 3 */}
-                     <tr>
+                  </tr>
+                <tr>
                      <th>3</th>
                      <td>Brice Swyre</td>
                      <td>1000</td>
                      <td></td>
-                    </tr>
-                {/* row 4 */}
-                    <tr>
+                  </tr>
+                <tr>
                     <th>4</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
-                    </tr>
-                {/* row 5 */}
-                     <tr>
+                 </tr>
+                <tr>
                     <th>5</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
-                    </tr>
-                {/* row 6*/}
-                     <tr>
+                  </tr>
+                <tr>
                     <th>6</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
-                    </tr>
-                {/* row 7 */}
+                  </tr>
                 <tr>
                     <th>7</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
-                    </tr>
-                
-    </tbody>
-    <tfoot>
-    <th></th> 
-        <td>Name</td> 
-        <td>Job</td> 
-        <td>company</td> 
-        <td>location</td> 
-        <td>Last Login</td> 
-        <td>Favorite Color</td>
-        <th></th> 
-    </tfoot>
-  </table>
+                  </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <th></th> 
+                    <td>Name</td> 
+                    <td>Level</td> 
+                   <td>Score</td> 
+                   <th></th>
+    </tr>
+  </tfoot>
+</table>
 </div>
 </main>
 </>   
