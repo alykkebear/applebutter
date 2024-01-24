@@ -4,10 +4,10 @@ import Navbar from "./navbar";
 export default function spell() {
   return (
     <>
-      <main data-theme = "retro">
+      <main data-theme = "luxury">
         <Navbar />
-        <div className = "join font-mono">
-        <div className="card join-item w-96 p-5 bg-base-100">
+        <div className = "join font-mono" >
+        <div className="card join-item w-96 p-5">
           <figure> 
             <img src="./waterblast.jpg" alt="water blast" />
           </figure>
@@ -24,7 +24,7 @@ export default function spell() {
             </div>
           </div>
         </div>
-        <div className="card w-96 p-5 join-item bg-base-100">
+        <div className="card w-96 p-5 join-item">
           <figure> 
             <img src="./fireflick.jpg" alt="fire flick" />
           </figure>
@@ -38,6 +38,23 @@ export default function spell() {
               <div className="badge badge-outline">Basic Spells</div> 
               <div className="badge badge-outline">Elemental</div>
               <div className="badge badge-outline">Fire</div>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 p-5 join-item">
+          <figure> 
+            <img src="./fireflick.jpg" alt="fire flick" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Earth Smash
+              <div className="badge badge-secondary">Level 1</div>
+            </h2>
+            <p>hit the ground really hard and impress your friends as pebbles pelt from above... where did the come from??!!?? WHERE DID THEY GO??!!?? WHerE DId THey cOMe FroM CoTtoN EyE jOE??!!?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Basic Spells</div> 
+              <div className="badge badge-outline">Elemental</div>
+              <div className="badge badge-outline">Earth</div>
             </div>
           </div>
         </div>
