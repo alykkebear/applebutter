@@ -28,7 +28,7 @@ export default function leaderboard() {
                 <tr>
                     <th>2</th>
                     <td>Hart Hagerty</td>
-                    <td></td>
+                    <td>100</td>
                     <td>512</td>
                   </tr>
                 <tr>
@@ -57,6 +57,36 @@ export default function leaderboard() {
                   </tr>
                 <tr>
                     <th>7</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                  </tr>
+                <tr>
+                    <th>8</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                  </tr>
+                <tr>
+                    <th>9</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                  </tr>
+                <tr>
+                    <th>10</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                  </tr>
+                <tr>
+                    <th>11</th>
+                    <td>Brice Swyre</td>
+                    <td>Tax Accountant</td>
+                    <td>Red</td>
+                  </tr>
+                <tr>
+                    <th>12</th>
                     <td>Brice Swyre</td>
                     <td>Tax Accountant</td>
                     <td>Red</td>
