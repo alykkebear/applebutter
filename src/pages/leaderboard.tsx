@@ -225,14 +225,14 @@ export default function leaderboard() {
     </tbody> 
    <tfoot>
       <tr>
-        <th></th> 
-        <td>Name</td> 
-        <td>Job</td> 
-        <td>company</td> 
-        <td>location</td> 
-        <td>Last Login</td> 
-        <td>Favorite Color</td>
-        <th></th> 
+            <th></th> 
+            <td>Name</td> 
+            <td>Job</td> 
+            <td>company</td> 
+            <td>location</td> 
+            <td>Last Login</td> 
+            <td>Favorite Color</td>
+            <th></th> 
       </tr>
     </tfoot>
   </table>
