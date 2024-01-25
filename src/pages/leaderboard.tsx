@@ -66,7 +66,7 @@ export default function leaderboard() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="Brice.jpg" alt="Avatar Tailwind CSS Component" />
+                <img src="Brice.png" alt="Avatar Tailwind CSS Component" />
               </div>
             </div>
             <div>
@@ -106,11 +106,11 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-          Rowe-Schoen
+         295
           <br/>
-          <span className="badge badge-ghost badge-sm">Office Assistant I</span>
+          <span className="badge badge-ghost badge-sm">Among Us</span>
         </td>
-        <td>Crimson</td>
+        <td>500</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -136,16 +136,17 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-          Wyman-Ledner
+          290
           <br/>
-          <span className="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+          <span className="badge badge-ghost badge-sm">Roblox</span>
         </td>
-        <td>Indigo</td>
+        <td></td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
     </tbody>
+    
     {/* foot */}
     <tfoot>
       <tr>
