@@ -126,7 +126,7 @@ export default function leaderboard() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-5@56w.png" alt="Avatar Tailwind CSS Component" />
+                <img src="Yancy.jpg" alt="Avatar Tailwind CSS Component" />
               </div>
             </div>
             <div>
