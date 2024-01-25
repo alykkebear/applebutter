@@ -43,7 +43,7 @@ export default function spell() {
         </div>
         <div className="card w-96 p-5 join-item">
           <figure> 
-            <img src="./fireflick.jpg" alt="fire flick" />
+            <img src="./earthsmash.jpg" alt="earth smash" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
@@ -55,6 +55,23 @@ export default function spell() {
               <div className="badge badge-outline">Basic Spells</div> 
               <div className="badge badge-outline">Elemental</div>
               <div className="badge badge-outline">Earth</div>
+            </div>
+          </div>
+        </div>
+        <div className="card w-96 p-5 join-item">
+          <figure> 
+            <img src="./windwhoosh.jpg" alt="wind whoosh" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Wind Whoosh
+              <div className="badge badge-secondary">Level 1</div>
+            </h2>
+            <p>blow out your opponents' hopes and dreams of failure because there's a new looser in town...YOU!!! your cute little wind whoosh could barely extinguish a candle. woe is you ya lil tryhard</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Basic Spells</div> 
+              <div className="badge badge-outline">Elemental</div>
+              <div className="badge badge-outline">Wind</div>
             </div>
           </div>
         </div>
