@@ -3,6 +3,7 @@ import Link from "next/link";
 import { api } from "~/utils/api";
 import React from 'react';
 import Navbar from './navbar'
+import Footer from "./footer";
 export default function Home() {
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
 
@@ -22,6 +23,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <Footer />
        </main>
        
     </>

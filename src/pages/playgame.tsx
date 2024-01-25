@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Navbar from "./navbar";
+import Footer from "./footer";
 export default function playgamepage() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function playgamepage() {
             </div>
           </div>
         </div>
+        <Footer />
      </main>
     </>
   );

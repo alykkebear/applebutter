@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Navbar from './navbar'
+import Footer from "./footer";
 export default function databasesearchpage() {
     return (
       <>
@@ -16,6 +17,7 @@ export default function databasesearchpage() {
             </div>
         </div>
     </div>
+    <Footer />
         </main>
       </>
     );

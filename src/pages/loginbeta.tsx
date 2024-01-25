@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Navbar from "./navbar";
+import Footer from "./footer";
 export default function loginpage() {
   return (
     <>
@@ -37,6 +38,7 @@ export default function loginpage() {
             </div>
         </div>
         <div className="skeleton w-320 h-320"></div>
+        <Footer />
      </main>
     </>
   );
