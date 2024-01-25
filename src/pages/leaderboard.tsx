@@ -18,8 +18,8 @@ export default function leaderboard() {
           </label>
         </th>
         <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
+        <th>Level</th>
+        <th>Score</th>
         <th></th>
       </tr>
     </thead>
@@ -45,11 +45,11 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-          Zemlak, Daniel and Leannon
+         300
           <br/>
-          <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
+          <span className="badge badge-ghost badge-sm">Pokemon</span>
         </td>
-        <td>Purple</td>
+        <td>1000</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -65,7 +65,7 @@ export default function leaderboard() {
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
+                <img src="Brice.jpg" alt="Avatar Tailwind CSS Component" />
               </div>
             </div>
             <div>
