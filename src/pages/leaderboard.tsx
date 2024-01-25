@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Navbar from "./navbar";
+import Footer from "./footer";
 
 export default function leaderboard() {
     return(
@@ -158,6 +159,7 @@ export default function leaderboard() {
     
   </table>
 </div>
+<Footer />
                 
 </main>
 </>   
