@@ -13,7 +13,7 @@ export default function Footer() {
          <a className="link link-hover" href = "./loginbeta" target = "_self">Login</a>
          <a className="link link-hover" href = "./spell" target = "_self">Spell Archive</a>
          <a className="link link-hover" href = "./leaderboard" target = "_self">Leaderboard</a>
-         <a className="link link-hover" href = "./_app" target = "_self">screw you ya punk</a>
+         <a className="link link-hover" href = "./watchitburn.png" target = "_self">screw you ya punk</a>
         </nav> 
         <nav>
          <div className="grid grid-flow-col gap-4">
