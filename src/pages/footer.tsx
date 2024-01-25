@@ -6,10 +6,14 @@ export default function Footer() {
       <main>
       <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <nav className="grid grid-flow-col gap-4">
-         <a className="link link-hover">About us</a>
-         <a className="link link-hover">Contact</a>
-         <a className="link link-hover">Jobs</a>
-         <a className="link link-hover">Press kit</a>
+         <a className="link link-hover" href = "./playgame" target = "_self">Play</a>
+         <a className="link link-hover" href = "./databasesearch" target = "_self">Database</a>
+         <a className="link link-hover" href = "./fileupload" target = "_self">File Upload</a>
+         <a className="link link-hover" href = "./" target = "_self">Home</a>
+         <a className="link link-hover" href = "./loginbeta" target = "_self">Login</a>
+         <a className="link link-hover" href = "./spell" target = "_self">Spell Archive</a>
+         <a className="link link-hover" href = "./leaderboard" target = "_self">Leaderboard</a>
+         <a className="link link-hover" href = "./_app" target = "_self">screw you ya punk</a>
         </nav> 
         <nav>
          <div className="grid grid-flow-col gap-4">
