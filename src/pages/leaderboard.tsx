@@ -76,11 +76,11 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-          Carroll Group
+          276
           <br/>
-          <span className="badge badge-ghost badge-sm">Tax Accountant</span>
+          <span className="badge badge-ghost badge-sm">Roblox</span>
         </td>
-        <td>Red</td>
+        <td>260</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -140,7 +140,7 @@ export default function leaderboard() {
           <br/>
           <span className="badge badge-ghost badge-sm">Roblox</span>
         </td>
-        <td></td>
+        <td>150</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -152,8 +152,8 @@ export default function leaderboard() {
       <tr>
         <th></th>
         <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
+        <th>Level</th>
+        <th>Score</th>
         <th></th>
       </tr>
     </tfoot>
