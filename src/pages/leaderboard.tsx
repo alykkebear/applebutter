@@ -33,6 +33,7 @@ export default function leaderboard() {
           </label>
         </th>
         <td>
+          
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
@@ -46,7 +47,7 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-         300
+         400
           <br/>
           <span className="badge badge-ghost badge-sm">Pokemon</span>
         </td>
@@ -56,6 +57,36 @@ export default function leaderboard() {
         </th>
       </tr>
       {/* row 2 */}
+      <tr>
+        <th>
+          <label>
+            <input type="checkbox" className="checkbox" />
+          </label>
+        </th>
+        <td>
+        <div className="flex items-center gap-3">
+            <div className="avatar">
+              <div className="mask mask-squircle w-12 h-12">
+                <img src="Elliana.png" alt="Avatar Tailwind CSS Component" />
+              </div>
+            </div>
+            <div>
+              <div className="font-bold">Elliana Roberts </div>
+              <div className="text-sm opacity-50">Japan</div>
+            </div>
+          </div>
+        </td>
+        <td>
+          385
+          <br/>
+          <span className="badge badge-ghost badge-sm">Among Us</span>
+        </td>
+        <td>700</td>
+        <th>
+          <button className="btn btn-ghost btn-xs">details</button>
+        </th>
+      </tr>
+      {/* row 3*/}
       <tr>
         <th>
           <label>
@@ -76,7 +107,7 @@ export default function leaderboard() {
           </div>
         </td>
         <td>
-          276
+          295
           <br/>
           <span className="badge badge-ghost badge-sm">Roblox</span>
         </td>
