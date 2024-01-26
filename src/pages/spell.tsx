@@ -114,7 +114,7 @@ export default function spell() {
         </div>
         <div className="card w-96 p-5 join-item">
           <figure> 
-            <img src="./dejavu.jpg" alt="a woman in white standing in a doorway" />
+            <img src="./minorhealingbuff.jpg" alt="light but magestic" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
@@ -131,7 +131,7 @@ export default function spell() {
         </div>
         <div className="card w-96 p-5 join-item">
           <figure> 
-            <img src="./dejavu.jpg" alt="a woman in white standing in a doorway" />
+            <img src="./minorstrengthbuff.jpg" alt="strength" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">
