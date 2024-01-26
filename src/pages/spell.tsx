@@ -138,7 +138,7 @@ export default function spell() {
               Minor Strength Buff
               <div className="badge badge-secondary">Level 2</div>
             </h2>
-            <p>your rippling muscles gear up to punch your foes with strenghth and momentum enough to destroy worlds...your long flowing hair wafts in the wind and you ponder what has become of you, the strongest one alive...in your dreams, of course. but with this strength buff your muscles will grow 10% faster during workouts (and be 10% more sore :> )</p>
+            <p>your rippling muscles gear up to punch your foes with strenghth and momentum enough to destroy worlds...your long flowing hair wafts in the wind and you ponder what has become of you, the strongest one alive...in your dreams, of course. but with this strength buff your muscles will grow 10% faster during workouts (and be 10% more sore :- )</p>
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Basic Spells</div> 
               <div className="badge badge-outline">Buffs</div>
