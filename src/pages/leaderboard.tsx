@@ -123,6 +123,36 @@ export default function leaderboard() {
           </label>
         </th>
         <td>
+        <div className="flex items-center gap-3">
+            <div className="avatar">
+              <div className="mask mask-squircle w-12 h-12">
+                <img src="Lisa.png" alt="Avatar Tailwind CSS Component" />
+              </div>
+            </div>
+            <div>
+              <div className="font-bold">Lisa Ferdandez</div>
+              <div className="text-sm opacity-50">China</div>
+            </div>
+          </div>
+        </td>
+        <td>
+         294
+          <br/>
+          <span className="badge badge-ghost badge-sm">Among Us</span>
+        </td>
+        <td>600</td>
+        <th>
+          <button className="btn btn-ghost btn-xs">details</button>
+        </th>
+      </tr>
+      {/* row 5 */}
+      <tr>
+        <th>
+          <label>
+            <input type="checkbox" className="checkbox" />
+          </label>
+        </th>
+        <td>
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
