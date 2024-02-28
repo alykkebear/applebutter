@@ -17,26 +17,19 @@ if (env.NODE_ENV !== "production") globalForPrisma.prisma = db;
 
 const prisma = new PrismaClient();
 
-async function main() {
-  const posts = await prisma.post.findMany({
-    include: {
-      author: true
-    }
+//async function main() {
+  //const login = await prisma.general.create({
+    //data: {
+      //Id: 
+      //Username: 'se'
+      //Password: 'se'
+      //Email: 'ls
 
-  });
-  console.log(posts);
-  const post = await prisma.post.create({
-    data: {
-      title: 'my first post',
-      body: 'my first post body',
-      author: {
-        connect: {
-          id: 'yues'
-        }
-      }
-    }
-  })
-  console.log(post);
-}
+    //}
 
-main();
+  //});
+
+  //console.log(login);
+//}
+
+//main();
