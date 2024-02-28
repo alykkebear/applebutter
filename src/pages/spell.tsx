@@ -97,7 +97,7 @@ export default function spell() {
         </div>
         <div className="card w-96 p-5 join-item">
           <figure> 
-            <img src="./dejavu.jpg" alt="a woman in white standing in a doorway" />
+            <img src="./curseofdejavu.jpg" alt="a woman in white standing in a doorway" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">

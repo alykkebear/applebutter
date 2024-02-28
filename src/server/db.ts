@@ -14,3 +14,29 @@ export const db =
   });
 
 if (env.NODE_ENV !== "production") globalForPrisma.prisma = db;
+
+const prisma = new PrismaClient();
+
+async function main() {
+  const posts = await prisma.post.findMany({
+    include: {
+      author: true
+    }
+
+  });
+  console.log(posts);
+  const post = await prisma.post.create({
+    data: {
+      title: 'my first post',
+      body: 'my first post body',
+      author: {
+        connect: {
+          id: 'yues'
+        }
+      }
+    }
+  })
+  console.log(post);
+}
+
+main();

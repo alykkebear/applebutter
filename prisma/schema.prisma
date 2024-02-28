@@ -1,20 +1,57 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
-    provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongoDb"]
 }
 
 datasource db {
-    provider = "sqlite"
-    url      = env("DATABASE_URL")
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
 }
 
-model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+type GameMonsterStatsAtk {
+  DEF GameMonsterStatsAtkDef
+}
 
-    @@index([name])
+type GameMonsterStatsAtkDef {
+  PWR String
+}
+
+type GameSpellStatsAtk {
+  DEF GameSpellStatsAtkDef
+}
+
+type GameSpellStatsAtkDef {
+  PWR String
+}
+
+model archive {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  Archive_Date String @map("Archive Date")
+  ArchiveDATA  String
+  Archiver     String
+  Image        String
+  RecordID     String
+  Review_Date  String @map("Review Date")
+  Reviewer     String
+  Upload_Date  String @map("Upload Date")
+  Uploader     String
+}
+
+model game {
+  id                String               @id @default(auto()) @map("_id") @db.ObjectId
+  Monster_Stats_ATK GameMonsterStatsAtk? @map("Monster Stats ATK")
+  Monsters          String?
+  Spell_Stats_ATK   GameSpellStatsAtk    @map("Spell Stats ATK")
+  Spells            String
+}
+
+model login {
+  id               String @id @default(auto()) @map("_id") @db.ObjectId
+  Archived_Records String @map("Archived Records")
+  Email            String
+  In_Game_Progress Float  @map("In-Game Progress")
+  /// Multiple data types found: String: 85.7%, Int: 14.3% out of 7 sampled entries
+  Password         String
+  Uploaded_Records String @map("Uploaded Records")
+  Username         String
 }
