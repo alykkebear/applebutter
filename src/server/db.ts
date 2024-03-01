@@ -20,10 +20,13 @@ const prisma = new PrismaClient();
 //async function main() {
   //const login = await prisma.general.create({
     //data: {
-      //Id: 
+      //id: 'SE
       //Username: 'se'
       //Password: 'se'
       //Email: 'ls
+      //Archived_Records: 'A0C435'
+      //In_Game_Progress: '1.098
+      //Uploaded_Records: 'B1C089'                              
 
     //}
 
