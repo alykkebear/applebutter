@@ -4,7 +4,7 @@ import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
-async function DisplayData() {
+export default async function DisplayData() {
   
   // ... you will write your Prisma Client queries here
   await prisma.post.create({
@@ -26,6 +26,38 @@ async function DisplayData() {
       },
     },
   });
+  const usersWithProfile = await prisma.user.findMany({
+    where: {
+      profile: {
+        isSet: true,
+      },
+    },
+    select: {
+      id: true,
+      profile: {
+        select: {
+          profilePicture: true,
+        },
+      },
+      posts: {
+        where: {
+          published: true,
+        },
+      },
+    },
+    take: 10,
+    orderBy: {
+      profile: {
+        firstName: "asc",
+      },
+    },
+
+  });
+  return (
+    <>
+    <p>hi my name is {usersWithProfile}</p>
+    </>
+  )
 
 }
 
