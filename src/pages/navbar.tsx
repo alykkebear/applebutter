@@ -17,6 +17,7 @@ export default function Navbar() {
             <li><Link href = "./" target = "_self">Home</Link></li>
             <li><Link href = "./spell" target= "_self">Spells</Link></li>
             <li><Link href = "./leaderboard" target= "_self">Leaderboard</Link></li>
+            <li><Link href = "./test" target= "_self"><b>test</b></Link></li>
            </ul>
           </div>
          </div>
