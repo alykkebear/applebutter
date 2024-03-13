@@ -3,29 +3,29 @@ import React from 'react';
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
+await prisma.post.create({
+  data: {
+    title: "My New Post",
+    author: {
+      connectOrCreate: {
+        create: {
+          email: "sam@prisma.io",
+          profile: {
+            firstName: "Sam",
+            lastName: "Smith",
+          },
+        },
+        where: {
+          email: "sam@prisma.io",
+        },
+      },
+    },
+  },
+});
 
 export default async function DisplayData() {
   
   // ... you will write your Prisma Client queries here
-  await prisma.post.create({
-    data: {
-      title: "My New Post",
-      author: {
-        connectOrCreate: {
-          create: {
-            email: "sam@prisma.io",
-            profile: {
-              firstName: "Sam",
-              lastName: "Smith",
-            },
-          },
-          where: {
-            email: "sam@prisma.io",
-          },
-        },
-      },
-    },
-  });
   const usersWithProfile = await prisma.user.findMany({
     where: {
       profile: {
@@ -51,13 +51,8 @@ export default async function DisplayData() {
         firstName: "asc",
       },
     },
+    
 
   });
-  return (
-    <>
-    <p>hi my name is {usersWithProfile}</p>
-    </>
-  )
-
 }
 
