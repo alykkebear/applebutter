@@ -5,12 +5,14 @@ import React from 'react';
 import Navbar from './navbar'
 import Footer from "./footer";
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "from tRPC" });
+  //const hello = api.post.hello.useQuery({ text: "from tRPC" });
+  const data = api.post.getlatest.useQuery().data;
 
   return (
     <>
        <main data-theme="coffee" class-name = "bg-primary font-mono" >
         <Navbar />
+        
         
         <div className="hero min-h-screen" style={{backgroundImage: `url(/map.jpeg)`}}>
           <div className="hero-overlay bg-opacity-60"></div>
@@ -19,9 +21,13 @@ export default function Home() {
                 <h1 className="mb-5 text-5xl font-bold">Welcome to ArchiveTerra</h1>
                 <p className="mb-5">Archiveterra is a state-of-the art system meant to make archiving fun!!! IK it lookes like crap now but come back in a few months and it'll probably work. Believe in teh belief that it can worrrrkkkkkk idk this is just filler text tbh. i really wanna buy a resin printer ~</p>
                 <button className="btn btn-primary"><Link href = "./playgame" target = "_self">Play</Link></button>
+                <p>hello</p>
                
               </div>
             </div>
+          </div>
+          <div>
+            {data?.map(({id, content}) => (<div key = {id}>{content}</div>))}
           </div>
           <Footer />
        </main>
