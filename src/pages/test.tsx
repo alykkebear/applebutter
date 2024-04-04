@@ -2,14 +2,14 @@ import Link from 'next/link';
 import React from 'react';
 import Navbar from './navbar';
 import Footer from "./footer";
-import DisplayData from "./displaydata";
+//import DisplayData from "./displaydata";
 
 export default function fileuploadpage() {
   return (
     <>
       <main data-theme="nord" className='bg-base-200'>
         <Navbar />
-        <DisplayData />
+        
         <div className="hero min-h-screen" style={{backgroundImage: 'url(/snowymountain.jpg)'}}>
           <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
