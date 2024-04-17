@@ -23,10 +23,23 @@ export default function Home() {
                   <div>
                     <div> </div>
                     <div className="chat chat-start">
-                     <div className="chat-bubble bg-secondary">{data?.map(({id, authorId, content}) => (<div key = {id}>{authorId}:{content}</div>))}</div>
+                      <div className="chat-bubble bg-secondary">{data?.map(({id, authorId, content}) =>
+                        (
+                          <div 
+                            key = {id}>{content}
+                            
+                          </div>
+                        ))}
+                      </div>
                       </div>
                    <div className="chat chat-end">
-                    <div className="chat-bubble bg-primary">You underestimate my power!</div>
+                    <div className="chat-bubble bg-primary">{data?.map(({id, authorId, content}) =>
+                        (
+                          <div 
+                            key = {id}>{authorId}
+                            
+                          </div>
+                        ))}</div>
                   </div>
                   </div>   
               </div>
