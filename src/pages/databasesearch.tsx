@@ -2,7 +2,9 @@ import Link from 'next/link';
 import React from 'react';
 import Navbar from './navbar'
 import Footer from "./footer";
+import { api } from "~/utils/api";
 export default function databasesearchpage() {
+  const data = api.archive.getlatest.useQuery().data;
     return (
       <>
         <main data-theme="business" className='bg-secondary' >
@@ -17,6 +19,15 @@ export default function databasesearchpage() {
             </div>
         </div>
     </div>
+    <div className="collapse bg-base-200 text-center">
+          <input type="checkbox" /> 
+          <div className="collapse-title text-xl font-medium">
+            Click me to show database content
+          </div>
+        <div className="collapse-content"> 
+        <p>{data?.map(({id, ArchiveDATA, Uploader, Image}) => (<div key = {id}>Description: {ArchiveDATA} || Uploader:{Uploader} || Link: {Image}</div>))}</p>
+      </div>
+     </div>
     <Footer />
         </main>
       </>
