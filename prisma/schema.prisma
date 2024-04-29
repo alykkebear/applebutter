@@ -65,6 +65,13 @@ model User {
 	profile   Profile?
   }
 
+model Leaderboard {
+  id    	String   @id @default(auto()) @map("_id") @db.ObjectId
+  Username String
+  Level String
+  Note String
+
+}
  
 
   model Post {
