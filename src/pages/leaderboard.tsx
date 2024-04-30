@@ -2,12 +2,47 @@ import Link from 'next/link';
 import React from 'react';
 import Navbar from "./navbar";
 import Footer from "./footer";
+import { api } from "~/utils/api";
 
 export default function leaderboard() {
-    return(
+  const data = api.leaderboard.getlatest.useQuery().data;
+    return (
         <>
             <main data-theme="coffee" className='bg-base-200'>
                 <Navbar />
+
+                <div className="overflow-x-auto">
+  <table className="table">
+    {/* head */}
+    <thead>
+      <tr>
+        <th></th>
+        <th>Username</th>
+        <th>Level</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody className = "   ">
+      {data?.map((id, Username, Level) => (
+        <tr key={id} className = "border-b-2">
+          {/* ID */}
+          <td className="w-1/12 py-3 pl-16">{id + 1}</td>
+        </tr>
+      ))}
+      
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
                 <div className="overflow-x-auto">
                 <table className="table">
                 {/* head */}
@@ -286,6 +321,6 @@ export default function leaderboard() {
                 
 </main>
 </>   
-    );
+);
 }
 

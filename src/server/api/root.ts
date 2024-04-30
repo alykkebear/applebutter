@@ -1,5 +1,6 @@
 import { postRouter } from "~/server/api/routers/post";
 import {archiveRouter} from "~/server/api/routers/archive";
+import {leaderboardRouter} from "~/server/api/routers/leaderboard";
 import { createTRPCRouter } from "~/server/api/trpc";
 
 /**
@@ -10,6 +11,7 @@ import { createTRPCRouter } from "~/server/api/trpc";
 export const appRouter = createTRPCRouter({
   post: postRouter,
   archive: archiveRouter,
+  leaderboard: leaderboardRouter
   
 });
 
