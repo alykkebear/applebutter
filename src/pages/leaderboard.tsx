@@ -23,16 +23,28 @@ export default function leaderboard() {
       </tr>
     </thead>
     <tbody className = "   ">
-      {data?.map((id, Username, Level) => (
+      {data?.map(({id, Username, Level, Note}) => (
         <tr key={id} className = "border-b-2">
           {/* ID */}
           <td className="w-1/12 py-3 pl-16">{id + 1}</td>
+          {/* username */}
+          <td className = "w-2/12">
+            {Username}
+          </td>
+          {/* level */}
+          <td className = "w-2/12">
+            {Level}
+          </td>
+          {/* Note*/}
+          <td className = "w-2/12">
+            {Note}
+          </td>
         </tr>
       ))}
       
     </tbody>
   </table>
-</div>
+</div>                 
 
 
 
