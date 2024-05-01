@@ -55,9 +55,9 @@ export default function leaderboard() {
 
 
 
-                <div className="overflow-x-auto">
+  {/*              <div className="overflow-x-auto">
                 <table className="table">
-                {/* head */}
+                
                 <thead>
                   <tr>
                     <th>
@@ -72,7 +72,7 @@ export default function leaderboard() {
       </tr>
     </thead>
     <tbody>
-      {/* row 1 */}
+      
       <tr>
         <th>
           <label>
@@ -103,7 +103,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 2 */}
+      
       <tr>
         <th>
           <label>
@@ -133,7 +133,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 4 */}
+      
       <tr>
         <th>
           <label>
@@ -163,7 +163,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 3*/}
+      
       <tr>
         <th>
           <label>
@@ -193,7 +193,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 3 */}
+      
       <tr>
         <th>
           <label>
@@ -223,7 +223,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 4 */}
+      
       <tr>
         <th>
           <label>
@@ -253,7 +253,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 5 */}
+      
       <tr>
         <th>
           <label>
@@ -283,7 +283,7 @@ export default function leaderboard() {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 6*/}
+      
       <tr>
         <th>
           <label>
@@ -316,7 +316,7 @@ export default function leaderboard() {
     </tbody>
     
     
-    {/* foot */}
+    
     <tfoot>
       <tr>
         <th></th>
@@ -329,6 +329,7 @@ export default function leaderboard() {
     
   </table>
 </div>
+*/}
 <Footer />
                 
 </main>
