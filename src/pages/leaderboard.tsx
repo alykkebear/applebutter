@@ -12,11 +12,11 @@ export default function leaderboard() {
                 <Navbar />
 
                 <div className="overflow-x-auto">
-  <table className="table">
+  <table className="table bg-base-300 justify-center">
     {/* head */}
     <thead>
       <tr>
-        <th></th>
+        {/*<th></th>*/}
         <th>Username</th>
         <th>Level</th>
         <th>Note</th>
@@ -24,9 +24,9 @@ export default function leaderboard() {
     </thead>
     <tbody className = "   ">
       {data?.map(({id, Username, Level, Note}) => (
-        <tr key={id} className = "border-b-2">
+        <tr key={id} className = "border-b-10">
           {/* ID */}
-          <td className="w-1/12 py-3 pl-16">{id + 1}</td>
+          {/*<td className="w-1/12 py-3 pl-16">{id + 1}</td>*/}
           {/* username */}
           <td className = "w-2/12">
             {Username}

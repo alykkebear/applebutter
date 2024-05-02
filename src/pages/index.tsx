@@ -40,31 +40,6 @@ export default function Home() {
                             
                           </div>
                         ))}</div> </div>
-                      <div >
-                      {data?.map(({id, authorId, content}) =>
-                        (
-                          <div className = "overflow-x-auto">
-                            <table className = "table justify-text-center bg-secondary">
-                              <div>
-                                <thead>
-                                  <tr>
-                                    <th>author ID</th>
-                                    <th>content</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                  <td>{authorId}</td>
-                                  <td>{content}</td>
-                                  </tr>
-                                </tbody>
-                              </div>
-                            </table>
-                            
-                          </div>
-                        ))}
-                      </div>
-
                       <div>
                       
 
